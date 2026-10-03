@@ -1,0 +1,15 @@
+# Core
+playwright>=1.40
+pyyaml>=6.0
+python-dotenv>=1.0
+
+# Dashboard
+streamlit>=1.32
+pandas>=2.0
+
+# Gmail interview radar (optional — only needed for gmail_radar.py)
+google-api-python-client>=2.0
+google-auth-oauthlib>=1.0
+
+# Dev / tests (optional)
+pytest>=8.0

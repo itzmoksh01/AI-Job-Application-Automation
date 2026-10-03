@@ -1,0 +1,66 @@
+locked:
+  name: Abhishek Goswami
+  email: itzmoksh01@gmail.com
+  phone: +91 6396911836
+  current_city: Bareilly, Uttar Pradesh
+  current_ctc_inr: 360000
+  expected_ctc_inr: 600000
+  notice_period: Not serving
+  work_history: AI Prompt Engineer, MS2 Entertainment LLP (04/2026–present); AI Executive,
+    Pinnacle Web Solutions (09/2025–04/2026); AI/ML Intern, Infosys (11/2024–01/2025)
+  education: B.Tech Computer Science, SRMS College of Engineering & Technology, Bareilly
+    (2021–2025)
+  video_editing_experience: 1-2 years
+  new_delhi_office: true
+  greater_noida_relocation: true
+  tools_video: RunwayML, HeyGen, ElevenLabs, Pika, Kling AI, Filmora, CapCut, Canva
+  tools_dev: React, Node.js, WordPress, prompt engineering, AI automation/workflows,
+    AI agents, RAG, LLM APIs
+  javascript_experience: 1 year
+  camtasia_experience: 1 year
+  instructional_design_experience: 1 year
+  relocation_anywhere: Yes — willing to relocate anywhere
+  english_comfort: 'Yes'
+  micro_drama_genai_experience: 'Yes'
+  portfolio_url: https://drive.google.com/drive/folders/1EqTOubGe5-GtzXSQSL0eQUb5aBElUep6
+  github_url: https://github.com/itzmoksh01
+  linkedin: https://www.linkedin.com/in/itzabhishek
+  why_this_role_text: 'I''m a Generative AI Specialist working at the intersection
+    of prompt engineering, AI video and automation — this is what I do every day.
+    The {role} role at {company} is exactly that kind of work: building AI-generated
+    content and workflows that actually ship. I''d love to bring my hands-on experience
+    with AI video tools (Runway, Kling, HeyGen, Pika) and prompt craft to your team,
+    and grow with the work.'
+  skill_question_rule: Yes — ALWAYS answer Yes to any skill/experience Yes-No screening
+    question
+needs_answers:
+  javascript_years:
+    question: How many years of experience do you have in JavaScript?
+    blocked: Transcal Technologies — AI Automation Tool Developer (fit 86)
+    status: LOCKED
+  camtasia_years:
+    question: How many years of experience do you have in Camtasia?
+    blocked: Mouser — Training Content Specialist I (fit 73)
+    note: Do NOT infer from video-editing experience
+    status: LOCKED
+  instructional_design_years:
+    question: How many years of experience do you have in Instructional Design?
+    blocked: Mouser — Training Content Specialist I (fit 73)
+    status: LOCKED
+  english_comfort:
+    question: Are you comfortable with English?
+    blocked: Nurtiv Ventures — Creative Content Producer (fit 71)
+    status: LOCKED
+  mumbai_relocation:
+    question: Are you willing to relocate to Mumbai?
+    blocked: Super Scholar — Video Editor - AI (fit 76); Clowise Mumbai question already
+      answered No
+    status: LOCKED
+  masjid_bunder_travel:
+    question: Are you willing to travel to Masjid Bunder, Mumbai?
+    blocked: Arabian Tours Travels — AI Team Leader (fit 70)
+    status: LOCKED
+not_provided:
+  portfolio_url: null
+  github_url: null
+  cover_letter_text: null

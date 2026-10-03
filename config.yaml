@@ -1,0 +1,62 @@
+# =====================================================================
+# Job Application Automation — portable configuration
+# Copy your details here. Secrets (OAuth tokens etc.) go in .env, never here.
+# =====================================================================
+
+candidate:
+  name: Abhishek Goswami
+  email: itzmoksh01@gmail.com
+  phone: "+91 6396911836"
+  linkedin: linkedin.com/in/itzabhishek
+  current_ctc_inr: 360000
+  expected_ctc_inr: 600000
+  notice_period: Immediate
+  total_experience_years: "2"
+  experience:
+    - "AI Prompt Engineer (Full Time), MS2 Entertainment LLP, 04/2026 - Present"
+    - "AI Executive (Full Time), Pinnacle Web Solutions, 09/2025 - 04/2026"
+    - "AI/ML Intern, Infosys, 11/2024 - 01/2025"
+  education: "B.Tech Computer Science, SRMS College of Engineering & Technology, Bareilly, 08/2021 - 09/2025"
+
+  # -- Extra profile answers -------------------------------------------
+  # The bot answers application questions ONLY from this file.
+  # Anything it cannot answer truthfully -> the listing is skipped, never guessed.
+  # Fill these in as recruiters ask; each answer unlocks more auto-applies.
+  portfolio_url: ""                 # e.g. https://your-portfolio.com
+  video_editing_years: ""           # e.g. 2
+  willing_to_relocate: ""           # yes / no
+  willing_in_person_interview: ""   # yes / no
+  current_location: ""              # e.g. Bareilly, India
+  preferred_locations: ""           # e.g. Remote; Delhi NCR; Bengaluru
+
+target_roles:
+  - Prompt Engineer
+  - AI Automation
+  - AI Agent
+  - AI Content Generation
+  - AI Video
+
+platforms:
+  - Naukri
+  # NOTE: apply on Naukri only. Never add LinkedIn or other boards here
+  # unless you consciously want them automated.
+
+automation:
+  mode: auto-apply            # auto-apply | dry-run
+  daily_limit: 200            # max successful applications per day, shared across runs
+  min_fit_score: 70           # apply only at this fit score or above
+  freshness_hours: 24         # only consider jobs posted in the last N hours
+  max_listings_per_role: 60   # safety cap on listings evaluated per role per run
+  timezone: Asia/Kolkata
+  active_window:              # runs outside this local-time window exit quietly
+    start: "10:00"
+    end: "18:00"
+
+resumes:
+  master: resumes/master_resume.pdf   # put your main resume here (fallback)
+  variants:
+    prompt_engineering: resumes/prompt_engineering.pdf
+    ai_automation: resumes/ai_automation.pdf
+    ai_agent: resumes/ai_agent.pdf
+    ai_video: resumes/ai_video.pdf
+    ai_content: resumes/ai_content.pdf

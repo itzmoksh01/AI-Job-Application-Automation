@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+config.local.yaml
+*.db
+*.sqlite3
+playwright-profile/
+.DS_Store

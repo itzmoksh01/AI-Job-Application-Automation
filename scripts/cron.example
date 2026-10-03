@@ -1,0 +1,12 @@
+# Example cron schedule (Linux / macOS). The script itself enforces the
+# 10:00-18:00 active window, so firing hourly all day is safe.
+# Adjust the project path and python binary to your machine.
+
+# Application runs — hourly; quiet outside the active window
+0 * * * * cd /path/to/job-application-automation && /usr/bin/python3 -m src.run >> logs/run.log 2>&1
+
+# Daily report — after the last run of the day
+5 18 * * * cd /path/to/job-application-automation && /usr/bin/python3 -m src.run --report >> logs/report.log 2>&1
+
+# Gmail interview radar — every 30 min, 07:00-23:00
+*/30 7-22 * * * cd /path/to/job-application-automation && /usr/bin/python3 -m src.gmail_radar --scan >> logs/radar.log 2>&1
